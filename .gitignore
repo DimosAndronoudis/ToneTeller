@@ -1,5 +1,4 @@
 # Local configuration and weights
-GLM-TTS/
 emotion_profiles/*.pt
 outputs/*.wav
 
@@ -18,3 +17,9 @@ __pycache__/
 # OS
 Thumbs.db
 .DS_Store
+
+# Vendored GLM-TTS local artifacts
+GLM-TTS/.git/
+GLM-TTS/.venv/
+GLM-TTS/ckpt/
+GLM-TTS/outputs/
